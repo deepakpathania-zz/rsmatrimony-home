@@ -1,0 +1,154 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+<nav class = "menu navbar navbar-default navbar-static-top" role = "navigation">
+   
+   <div class = "navbar-header">
+      <button type = "button" class = "navbar-toggle" 
+         data-toggle = "collapse" data-target = "#example-navbar-collapse">
+         <span class = "sr-only">Toggle navigation</span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+         <span class = "icon-bar"></span>
+      </button>
+		
+      <div class = "navbar-header">
+      <a class = "navbar-brand" href = "#">Maheshwari.org</a>
+   </div>
+   </div>
+   
+   <div class = "collapse navbar-collapse" id = "example-navbar-collapse">
+	
+      <ul class = "nav navbar-nav">
+      <li><a href = "http://maheshwari.org/user/main.aspx">Home</a></li>
+         <li ><a href = "http://maheshwari.org/user/login.aspx">Login</a></li>
+         <li><a href = "http://maheshwari.org/user/register.aspx">Register</a></li>
+			
+         <li class = "dropdown">
+            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">
+               Search
+               <b class = "caret"></b>
+            </a>
+            
+            <ul class = "dropdown-menu">
+               <li><a href="http://maheshwari.org/user/general.aspx">Basic</a></li>
+              <li><a href="http://maheshwari.org/user/advance.aspx">Advanced</a></li>
+              <li><a href="http://maheshwari.org/user/city.aspx">City</a></li>
+
+
+               
+               <li class = "divider"></li>
+
+               <li class = "dropdown">
+            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">
+               Top Searches 
+               <b class = "caret"></b>
+            </a>
+
+            <ul class = "dropdown-submenu">
+               <li><a href="http://maheshwari.org/user/link.aspx?col=manglik&status=yes&u=9">Manglik</a>
+               	<li><a href="http://maheshwari.org/user/link.aspx?col=marstatus&status=_unmarried&u=0">Divorcee/Widow</a></li>
+                  <li><a href="http://maheshwari.org/user/link.aspx?col=country&status=_india&u=1">NRI</a></li>
+</ul>
+               
+                <li class = "divider"></li>
+
+               <li class = "dropdown">
+            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">
+               Search By Education
+               <b class = "caret"></b>
+            </a>
+
+            <ul class = "dropdown-submenu">
+               <li><a href="http://maheshwari.org/user/link.aspx?col=education&status=d&u=2">Doctors</a></li>
+               	<li><a href="http://maheshwari.org/user/link.aspx?col=education&status=e&u=3">Engineers</a></li>
+               	  <li><a href="http://maheshwari.org/user/link.aspx?col=education&status=m&u=4">MBA, MCA</a></li>
+                <li><a href="http://maheshwari.org/user/link.aspx?col=education&status=p&u=5">CA, CS, ICWA</a></li>
+</ul>
+
+              <li class = "divider"></li>
+
+               <li class = "dropdown">
+            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">
+               Search By Occupation
+               <b class = "caret"></b>
+            </a>
+
+            <ul class = "dropdown-submenu">
+                                 <li><a href="http://maheshwari.org/user/link.aspx?col=pstatus&status=service&u=6">Service</a></li>
+                                    <li><a href="http://maheshwari.org/user/link.aspx?col=pstatus&status=business&u=8">Business</a></li>
+                                    <li><a href="http://maheshwari.org/user/link.aspx?col=pstatus&status=profession&u=7">Profession</a></li>
+</ul>
+
+
+               <li class = "divider"></li>
+                <li>
+                                 <div id = "inline-form" class="row mt">
+                <div class="col-lg-12 xs-hidden lg-visible">
+                    <div class="form-panel animated bounceInLeft">
+                      <form class="form-inline" role="form" action = "http://maheshwari.org/user/profile.aspx">
+                          <div class="form-group ">
+                              <label class="sr-only" for="exampleInputEmail2">Search By Id</label>
+                              <input type="text" class="form-control" id="exampleInputEmail2" placeholder="Search By Id" name="id">
+                          </div>
+                          <button type="submit" class="btn btn-info">Submit</button>
+                      </form>
+                    </div><!-- /form-panel -->
+                </div><!-- /col-lg-12 -->
+            </div>
+
+           <li>
+             <div id = "inline-form" class="row mt">
+                <div class="col-lg-12 xs-hidden lg-visible">
+                    <div class="form-panel animated bounceInLeft">
+                      <form class="form-inline" role="form" action = "http://maheshwari.org/user/namesearch.aspx"><strong>Find a member</strong>
+                          <div class="form-group ">
+                                <label class="sr-only" for="exampleInputEmail3">Find a member</label>
+                                    <input type="text" name="name" class="search-txt form-control" placeholder="Name" onblur="this.value = this.value.replace(',',''); if(this.value.trim().length == 1) this.value='';"><br>
+                                    <input type="text" name="surname" class="search-txt form-control" placeholder="Last name" onblur="this.value = this.value.replace(',',''); if(this.value.trim().length == 1) this.value='';">
+                                    </div>
+                                     <button type="submit" class="btn btn-info">Search</button>
+                                </form>
+                                </div>
+                                </div>
+                                </div>
+                            </li>
+
+            </ul>
+           
+         </li>
+
+         <li><a href="http://maheshwari.org/user/payment-options.aspx">Membership </a></li>
+
+
+          <li class = "dropdown">
+            <a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">
+               Help
+               <b class = "caret"></b>
+            </a>
+            
+            <ul class = "dropdown-menu">
+               <li><a href="http://maheshwari.org/user/contact.aspx">Contact Us</a></li>
+              <li><a href="http://maheshwari.org/user/feedback.aspx">Feedback</a></li>
+              </ul>
+              </li>
+			
+      </ul>
+   </div>
+   
+</nav>
+
+    <!-- CORE JQUERY SCRIPTS -->
+    <script src="js/jquery.js"></script>
+    <!-- BOOTSTRAP SCRIPTS  -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
+
+
